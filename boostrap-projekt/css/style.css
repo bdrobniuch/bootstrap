@@ -1,0 +1,109 @@
+/* helpers */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+section,
+footer {
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+a {
+    color: #e38f42;
+}
+
+p {
+    color: #888;
+}
+
+/* nawigacja */
+#main-nav {
+    background-color: #444;
+}
+
+#main-nav a {
+    color: #c2c2c2;
+    transition: all 0.4s;
+}
+
+#main-nav a:hover {
+    color: #fff;
+}
+
+/* join */
+.join-us {
+    background-image: url('../img/form-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.join-us p {
+    color: #c2c2c2;
+}
+
+.join-us form {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.join-us form header {
+    padding: 25px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.join-us form header p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.join-us form fieldset {
+    padding: 25px;
+}
+
+.join-us form fieldset input,
+.join-us form fieldset textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.join-us .content-holder {
+    color: #fff;
+    padding-top: 120px;
+}
+
+.join-us .content-holder h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.btn-transparent {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 0.4s;
+}
+
+.btn-transparent:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #f8f8f8;
+}
+
+@media all and (min-width: 576px) {
+    .super-high {
+        font-size: 2em;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .super-high {
+        font-size: 3em;
+    }
+}
