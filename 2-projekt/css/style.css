@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+        transition: all 0.4s;
 }
 
 #main-nav {
@@ -79,9 +80,9 @@ footer {
 
 #world .btn-transparent {
     background-color: rgba(0, 0, 0, 0.3);
-    ;
     border-width: 0;
     padding: 15px 20px;
+
 }
 
 #world .btn-transparent:hover {
@@ -90,7 +91,8 @@ footer {
 }
 
 #climb button,
-#climb input {
+#climb input,
+#climb a{
     color: white;
     padding: 15px 20px;
 
@@ -108,3 +110,10 @@ footer {
     line-height: 200%;
 }
 
+section a, footer a{
+     color: #e38f32;
+}
+
+section a:hover, footer a:hover{
+     color: #e38f32;
+}
