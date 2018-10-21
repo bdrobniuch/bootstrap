@@ -11,7 +11,6 @@ h2, .navbar-brand {
     transition: all 2s;
 }
 #main-header {
-    background-image: url(../img/header/pictures_on_the_wall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,6 +20,11 @@ h2, .navbar-brand {
     flex-direction: column;
     justify-content: center;
     color: white;
+    background:     linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)),
+        url(../img/header/pictures_on_the_wall.jpg);
+    );
 }
 
 
